@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  get '/search/:id', to: 'search#process_search'
+  get '/search/:query', to: 'search#process_search'
 end
