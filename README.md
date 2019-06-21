@@ -9,6 +9,7 @@ As they don't have a public facing API or a particularly friendly back-end for s
 When the server is running, it can take a basic URI encoded query routed to /search/:query.
 
   For example, the a GET to "/search/Bohemian%20Rhapsody" would yield:
+  ```
   {
     number_of_results: 4,
     songs: [
@@ -34,5 +35,5 @@ When the server is running, it can take a basic URI encoded query routed to /sea
       }
     ]
   }
-  
+  ```
   # ON HEROKU 
