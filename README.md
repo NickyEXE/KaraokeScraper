@@ -36,4 +36,6 @@ When the server is running, it can take a basic URI encoded query routed to /sea
     ]
   }
   ```
-  # ON HEROKU 
+# ON HEROKU 
+
+This server is being hosted on Heroku at https://singsingscraper.herokuapp.com/. Its only function is to be used with the above command: https://singsingscraper.herokuapp.com/search/:query
